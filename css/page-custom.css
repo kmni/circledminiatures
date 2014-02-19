@@ -32,6 +32,8 @@ body#news {background-image: url(../img/bg_body_news.jpg);}
 .navbar-static-top .navbar-inner {padding: 0px;}
 .navbar-static-top h1 {float: left; font: normal 2.875em/1.08695em 'Pacifico', cursive; color: #ebba17; padding: 0!important; margin: 2px 0 0 16.5%;}
 .navbar-static-top .fb_icon {float: right; margin: 4px 10px 0 0;}
+.gallery_list a img {max-height:225px;}
+.gallery_list a:nth-child(3n+4) {clear:left;}
 @media (max-width: 1000px) {
     #logo {}
     .navbar-static-top .nav > li > a {font-size: 14px}
@@ -113,9 +115,9 @@ body#news {background-image: url(../img/bg_body_news.jpg);}
 .row-fluid {width: auto; padding: 20px 35px 0 32px;}
 
 #content h1 {font: normal 2.25em/1.2222em 'Pacifico', cursive; color: #6e1515; padding: 25px 0 0; margin: 0 0 30px 0;}
-#content h2 {font: 400 1.5em/1.16667em 'Oswald', sans-serif; color: #000; padding: 0; margin: 0 0 10px;}
-#content h3 {font: 300 1.5em/1.16667em 'Oswald', sans-serif; color: #000; padding: 0; margin: 0 0 10px;}
-#content p {font: 400 1em/1.25em 'Oswald', sans-serif; color: #000; padding: 0; margin: 0 0 20px;}
+#content h2 {/*font: 400 1.5em/1.16667em 'Oswald', sans-serif;*/ color: #000; padding: 0; margin: 0 0 10px;}
+#content h3 {font: 400 1.5em/1.16667em 'Oswald', sans-serif; color: #000; padding: 0; margin: 0 0 10px;}
+#content p {font: 300 1em/1.25em 'Oswald', sans-serif; color: #000; padding: 0; margin: 0 0 20px;}
 #content p strong,
 #content p a,
 #content p a:hover {font-weight: 400; color: #3f57a6; text-decoration: none;}
@@ -156,8 +158,9 @@ body#news {background-image: url(../img/bg_body_news.jpg);}
 .horse_detail {padding-top: 20px;}
 .horse_detail .gallery_box {float: left; width: 60.87%; min-width: 350px; max-width: 568px; text-align: center; background: #fafafa; margin: 0 12px 12px 0;}
 .horse_detail .gallery_box .thumbnails {text-align: center; padding: 0.4% 0 0.4% 0.9%;}
-.horse_detail .gallery_box .thumbnails a {float: left; width: 31.2%; min-width: 75px; padding: 1%;}
-.horse_detail .info_box {float: left; width: 37.72%; min-width: 350px; height: 853px; background: #fafafa; margin: 0 0 12px;}
+.horse_detail .gallery_box .thumbnails a {float: left; /*width: 31.2%;*/ min-width: 75px; padding: 1%;}
+.horse_detail .gallery_box .thumbnails img{max-height:131px;}
+.horse_detail .info_box {float: left; width: 37.72%; min-width: 350px; /*height: 853px;*/ background: #fafafa; margin: 0 0 12px; padding: 0 0 15px 0;}
 .horse_detail .info_box h4 {font: 400 1.125em/1.2222em 'Oswald', Arial; color: #6e1515; padding: 0; margin: 24px 0 5px 18px;}
 .horse_detail .info_box span {display: block; font: 300 1em/1.125em 'Oswald', Arial; color: #000; padding: 0 0 0 22px; margin: 0 0 2px 18px;}
 .horse_detail .info_box span.birthdate {background: url(../img/icon-cake.png) left 1px no-repeat;}
