@@ -1,3 +1,14 @@
+::selection
+{
+color:#000;
+background:#E09D28;
+}
+::-moz-selection
+{
+color:#000;
+background:#E09D28;
+}
+
 html {padding: 0; margin: 0;}
 body {font-size: 16px; color: #3e392f; font-family: 'Oswald', sans-serif; background: url(../img/bg_body.jpg) center top repeat-y; padding: 0; margin: 0;}
 body#news {background-image: url(../img/bg_body_news.jpg);}
@@ -148,7 +159,9 @@ body#news {background-image: url(../img/bg_body_news.jpg);}
 
 .horses_list {padding: 20px 0;}
 .horses_list .item {float: left; width: 49.5%; max-width: 462px; background: #fafafa; padding-bottom: 3px; margin: 0 9px 10px 0;}
+.horses_list .sold {width: 32.37%;}
 .horses_list .item:nth-child(2n) {margin-right: 0;}
+.horses_list .sold:nth-child(2n) {margin-right: 9px;}
 .horses_list .item h4 {font: 300 1.5em/1.166667em 'Oswald', Arial; color: #3f57a6; padding: 0; margin: 5px 10px;}
 .horses_list .item h4 a {color: #3f57a6; text-decoration: none;}
 #content .horses_list .item p {clear: both; font: 300 1em/1.125em 'Oswald', Arial; color: #000; padding: 0 10px; margin: 0 0 3px;}
@@ -165,6 +178,8 @@ body#news {background-image: url(../img/bg_body_news.jpg);}
 .horse_detail .info_box span {display: block; font: 300 1em/1.125em 'Oswald', Arial; color: #000; padding: 0 0 0 22px; margin: 0 0 2px 18px;}
 .horse_detail .info_box span.birthdate {background: url(../img/icon-cake.png) left 1px no-repeat;}
 .horse_detail .info_box span.height {background: url(../img/icon-hand.png) left 2px no-repeat;}
+.horse_detail .info_box-description{float: left; width: 100%; min-width: 350px; /*height: 853px;*/ background: #fafafa; margin: 0 0 12px; padding: 15px 0 15px 0;}
+#content .horse_detail .info_box-description p {margin: 0 18px;}
 #content .horse_detail .info_box p {margin: 0 18px;}
 #content .horse_detail .info_box ul {margin: 0 18px 22px 24px;}
 .horse_detail .pedigree_box {clear: both; background: #fafafa; padding: 16px 18px;}

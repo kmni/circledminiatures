@@ -108,10 +108,13 @@
                         <li>2012 World Top Ten(4th) Amateur Jr. Mares Level 1 Over 30-33"</li>
                         <li>2012 Honor Roll Champion AOTE Jr. Mares w/Christine Doner</li>
                       <!-- TemplateEndEditable -->
-                    </ul>
-                    <!-- TemplateBeginEditable name="Description" -->
+                    </ul></div> <!--// .info_box -->
+                    
+                <div class="info_box-description">
+                <!-- TemplateBeginEditable name="Description" -->
                     <p>A very flashy pinto filly, Humhills Miss B Haven is the result of a strategic cross between a <strong>Reeces Thunder Hawk</strong> son and a Sids Rebel daughter. She exemplifies a beautiful Arabian style head, femininity, a correct body, and a neck/shoulder with superior length and shape. Now that she is retired from an extended show career, we are anxiously waiting to breed her to our</p>
-                    <!-- TemplateEndEditable --></div> <!--// .info_box -->
+                    <!-- TemplateEndEditable -->
+                </div>
 
  <div class="pedigree_box">
                     <h4>Pedigree</h4>
